@@ -243,7 +243,7 @@
           <include>**/*.properties</include>
           <include>**/*.xml</include>
           <include>**/*.html</include>
-          <include>**/*.png,*.jpg</include>
+          <include>**/*.png</include>
           <include>banner.txt</include>
         </includes>
         <filtering>true</filtering>

@@ -16,7 +16,7 @@
         scope = "prototype">
     <property name = "patterns">
       <list>
-        <value>com.blueocean.db.single.web.*</value>
+        <value>com.blueocean.web.*</value>
       </list>
     </property>
   </bean>
