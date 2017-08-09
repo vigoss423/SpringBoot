@@ -1,5 +1,7 @@
 package com.blueocean.web.hellomanage.dao;
 
+import java.util.List;
+
 import org.apache.ibatis.annotations.Mapper;
 
 import com.blueocean.web.hellomanage.dto.userDo;
@@ -52,4 +54,6 @@ public interface userDoMapper {
      * @mbggenerated Wed Aug 09 13:52:23 CST 2017
      */
     int updateByPrimaryKey(userDo record);
+
+	List<userDo> selectAll();
 }
