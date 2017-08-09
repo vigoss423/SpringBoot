@@ -20,10 +20,9 @@ public class LogAspectUtil {
   /**
    * 定义切面，此方法不能有返回值，该方法只是一个标示，方法体不会被执行
    */
-  @Pointcut("execution( * com.blueocean.web.hellomanage.service.impl.Hellompl.*(..))" +
-      " or execution( * com.bbf.db.single.service.QdComputerServiceImpl.*(..))")
+  @Pointcut("execution( * com.blueocean.web.*.service.impl.*.*(..))") //+
+  //    " or execution( * com.blueocean.web.hellomanage.service.impl.*.*(..))")
   private void recordLog() {
-	  System.out.println("321123111");
   }
 
   /**
