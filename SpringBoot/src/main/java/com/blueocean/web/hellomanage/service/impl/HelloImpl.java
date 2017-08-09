@@ -1,6 +1,8 @@
 package com.blueocean.web.hellomanage.service.impl;
 
 
+import java.util.List;
+
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
@@ -18,10 +20,10 @@ public class HelloImpl implements HelloInfo{
 
 	@Override
 	public userDo getUser() {
-		userDo  user = mapper.selectByPrimaryKey(1);
-		PageHelper.startPage(1, 10, true);
-		System.out.println(user.toString());
-		return user;
+		List<userDo>  user = mapper.selectAll();
+		PageHelper.startPage(1, 8, "id");
+		System.out.println(user.size());
+		return user.get(0);
 	}
 
 }
