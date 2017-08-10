@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import com.blueocean.common.util.RetInfoUtil;
 import com.blueocean.common.vo.RetInfo;
-import com.blueocean.web.hellomanage.controller.HelloController;
 
 
 @RestControllerAdvice(basePackages = {"com.bluesea"})
