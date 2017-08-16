@@ -108,8 +108,8 @@
     </dependency>
     <!-- 工具类 -->
     <dependency>
-      <groupId>common-kit</groupId>
-      <artifactId>common-kit</artifactId>
+      <groupId>blue-ocean-common-kit</groupId>
+      <artifactId>blue-ocean-common-kit</artifactId>
       <version>${common.kit}</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/com.github.pagehelper/pagehelper -->
