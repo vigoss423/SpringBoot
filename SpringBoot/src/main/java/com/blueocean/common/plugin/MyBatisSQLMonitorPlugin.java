@@ -21,7 +21,7 @@ public final class MyBatisSQLMonitorPlugin {
   /**
    * 是否监控显示SQL
    */
-  private static final boolean SHOWSQL = true;
+  private static final boolean SHOWSQL = false;
   /**
    * 慢SQL时间阀值，单位毫秒
    */
