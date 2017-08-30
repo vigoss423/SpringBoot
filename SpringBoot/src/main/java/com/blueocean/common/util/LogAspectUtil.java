@@ -6,13 +6,14 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * 日志记录AOP工具类，环绕通知
  * @author BBF
  */
 @Aspect
-//@Configuration
+@Configuration
 public class LogAspectUtil {
 	
   private static final Logger _log = LoggerFactory.getLogger(LogAspectUtil.class);
